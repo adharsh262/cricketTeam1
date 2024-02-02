@@ -1,0 +1,32 @@
+
+
+GET http://localhost:3000/players/
+
+
+
+POST http://localhost:3000/players/
+Content-Type:application/json
+ {
+       
+        "player_name": "Varunix",
+        "jersey_number": 65,
+        "role": "Bower"
+    }
+
+GET http://localhost:3000/players/1/    
+
+
+
+PUT http://localhost:3000/players/14/ 
+
+Content-Type:application/json
+ {
+       
+        "player_name": "Vrunix",
+        "jersey_number": 65,
+        "role": "Bowler"
+    }
+
+
+DELETE http://localhost:3000/players/12/     
+
